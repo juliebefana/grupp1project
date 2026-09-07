@@ -157,3 +157,88 @@ body {
   font-weight: 700;
   text-align: center;
 }
+
+>>>>>>> /* FAVORITER // FRIDA */
+
+/* typsnitt */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+/* transparenta bakgrunden */
+.favorites-section {
+    background-color: rgba(241, 229, 161, 0.2); /* Färgkoden #F1E5A1 med 20% synlighet */
+    padding: 40px 20px;
+    text-align: center; /* Centrerar rubrik och knapp */
+}
+
+.favorites-section h2 {
+    color: #8B2626;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+/* Flexbox för att lägga korten i en rad */
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap; /* Gör att korten radbryts på mindre skärmar */
+}
+
+/*  Boxmodellen för hundkorten */
+.card {
+    background-color: #ffffff;
+    border: 1px solid #8B2626; /* Den vinröda ramen */
+    border-radius: 12px;
+    width: 251px; /* Exakt samma som bildens bredd */
+    overflow: hidden; /* Rundar av bildens hörn i överkanten */
+}
+
+.card img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #8B2626; /* Linjen mellan bild och text */
+}
+
+/*  Nedre delen av kortet (Namn och hjärta) */
+.card-info {
+    display: flex;
+    justify-content: center; /* Centrerar hundens namn under bilden */
+    align-items: center;
+    padding: 15px 15px 35px 15px;
+    position: relative; /* hjärtat ska kunna placeras fritt */
+}
+
+.dog-name {
+    margin: 0;
+    color: #8B2626;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.heart-icon {
+    position: absolute;
+    right: 5px;
+    bottom: 2px;   /* Trycker ner hjärtat mot bottenkanten */
+    width: 22px;   /* Sätter storleken på ikonen */
+    height: 22px;
+    fill: #8B2626; /* På SVG-ikoner använder man "fill" i stället för "color" */
+    cursor: pointer;
+}
+
+/*  Knappen längst ner */
+.show-more-btn {
+    font-family: 'Instrument Sans', sans-serif; /* Unikt typsnitt för knappen */
+    background-color: transparent;
+    color: #8B2626;
+    border: 1px solid #8B2626;
+    border-radius: 25px;
+    padding: 10px 30px;
+    margin-top: 40px;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+}
