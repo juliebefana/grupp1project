@@ -229,7 +229,7 @@ body {
     cursor: pointer;
 }
 
-/*  Knappen längst ner */
+/*  Visa mer - knapp */
 .show-more-btn {
     font-family: 'Instrument Sans', sans-serif; /* Unikt typsnitt för knappen */
     background-color: transparent;
@@ -241,4 +241,10 @@ body {
     font-weight: 600;
     font-size: 16px;
     cursor: pointer;
+}
+
+/* När musen är ovanför knappen */
+.show-more-btn:hover {
+    color: #486C2F;       /* Ändrar textfärgen */
+    border-color:#486C2F; /* Ändrar ramens färg */
 }
