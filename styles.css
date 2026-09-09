@@ -345,7 +345,15 @@ body {
     width: 22px;   /* Sätter storleken på ikonen */
     height: 22px;
     fill: #8B2626; /* På SVG-ikoner använder man "fill" i stället för "color" */
+    stroke: #8B2626;   /* Den vinröda färgen på konturen runt om */
+    stroke-width: 2px; /* Tjockleken på konturen */
     cursor: pointer;
+    transition: fill 0.2s ease-in-out;
+}
+
+/* 2. Klickat läge (Släckt / Tomt hjärta) */
+.heart-icon.empty {
+    fill: transparent; /* Ändrat: När denna klass läggs till töms färgen */
 }
 
 /*  Visa mer - knapp */
