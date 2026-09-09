@@ -286,7 +286,7 @@ body {
 
 /* transparenta bakgrunden */
 .favorites-section {
-    background-color: rgba(241, 229, 161, 0.2); /* Färgkoden #F1E5A1 med 20% synlighet */
+    background-color: #fffdf0;
     padding: 40px 20px;
     text-align: center; /* Centrerar rubrik och knapp */
 }
