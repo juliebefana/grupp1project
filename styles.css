@@ -62,7 +62,7 @@ body {
 }
 
 .nav a {
-  color: #8B2626;
+  color: #962727;
 
   font-size: 14px;
   font-weight: 500;
@@ -80,7 +80,7 @@ body {
 .login-btn {
   margin-left: auto;
 
-  background: #8B2626;
+  background: #962727;
   color: #ffffff;
 
   padding: 9px 25px;
@@ -158,7 +158,6 @@ body {
   text-align: center;
 }
 
-<<<<<<< HEAD
 /* SÖKFUNKTION// ALICE */
 
 * {
@@ -190,7 +189,7 @@ body {
     height: 66px;
 
     background-color: white;
-    border: 2px solid #9e2929;
+    border: 2px solid #962727;
     border-radius: 40px;
 
     display: flex;
@@ -204,7 +203,7 @@ body {
 }
 
 .search-icon {
-    color: #9e2929;
+    color: #962727;
     font-size: 30px;
 }
 
@@ -237,7 +236,7 @@ body {
     height: 43px;
 
     background-color: white;
-    border: 2px solid #9e2929;
+    border: 2px solid #962727;
     border-radius: 30px;
 
     display: flex;
@@ -257,8 +256,8 @@ body {
     width: 12px;
     height: 12px;
 
-    border-right: 2px solid #9e2929;
-    border-bottom: 2px solid #9e2929;
+    border-right: 2px solid #962727;
+    border-bottom: 2px solid #962727;
 
     transform: rotate(45deg);
     margin-top: -6px;
@@ -293,7 +292,7 @@ body {
 }
 
 .favorites-section h2 {
-    color: #8B2626;
+    color: #962727;
     font-weight: 800;
     margin-bottom: 30px;
 }
@@ -309,7 +308,7 @@ body {
 /*  Boxmodellen för hundkorten */
 .card {
     background-color: #ffffff;
-    border: 1px solid #8B2626; /* Den vinröda ramen */
+    border: 1px solid #962727; /* Den vinröda ramen */
     border-radius: 12px;
     width: 251px; /* Exakt samma som bildens bredd */
     overflow: hidden; /* Rundar av bildens hörn i överkanten */
@@ -319,7 +318,7 @@ body {
     display: block;
     width: 100%;
     height: auto;
-    border-bottom: 1px solid #8B2626; /* Linjen mellan bild och text */
+    border-bottom: 1px solid #962727; /* Linjen mellan bild och text */
 }
 
 /*  Nedre delen av kortet (Namn och hjärta) */
@@ -333,7 +332,7 @@ body {
 
 .dog-name {
     margin: 0;
-    color: #8B2626;
+    color: #962727;
     font-weight: 600;
     font-size: 16px;
 }
@@ -344,7 +343,7 @@ body {
     bottom: 2px;   /* Trycker ner hjärtat mot bottenkanten */
     width: 22px;   /* Sätter storleken på ikonen */
     height: 22px;
-    fill: #8B2626; /* På SVG-ikoner använder man "fill" i stället för "color" */
+    fill: #962727; /* På SVG-ikoner använder man "fill" i stället för "color" */
     stroke: #8B2626;   /* Den vinröda färgen på konturen runt om */
     stroke-width: 2px; /* Tjockleken på konturen */
     cursor: pointer;
@@ -360,8 +359,8 @@ body {
 .show-more-btn {
     font-family: 'Instrument Sans', sans-serif; /* Unikt typsnitt för knappen */
     background-color: transparent;
-    color: #8B2626;
-    border: 1px solid #8B2626;
+    color: #962727;
+    border: 1px solid #962727;
     border-radius: 25px;
     padding: 10px 30px;
     margin-top: 40px;
