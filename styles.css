@@ -372,5 +372,195 @@ body {
 /* När musen är ovanför knappen */
 .show-more-btn:hover {
     color: #486C2F;       /* Ändrar textfärgen */
-    border-color:#486C2F; /* Ändrar ramens färg */
+    border-color: #486C2F; /* Ändrar ramens färg */
+}
+
+/* =========================================
+   FOOTER
+========================================= */
+
+.footer {
+    width: 1440px;
+    height: 569px;
+
+    position: relative;
+
+    background-color: #8B2626;
+
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Instrument Sans', sans-serif;
+}
+
+
+/* =========================================
+   LOGO
+========================================= */
+
+.footer-logo {
+    position: absolute;
+
+    left: 14px;
+    top: 27px;
+
+    width: 275px;
+    height: 284px;
+
+    object-fit: contain;
+}
+
+
+/* =========================================
+   HITTAHUND
+========================================= */
+
+.footer-brand h2 {
+    position: absolute;
+
+    left: 27px;
+    top: 285px;
+
+    width: 294px;
+    height: 94px;
+
+    margin: 0;
+
+    color: #F1E5A1;
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    font-weight: 800;
+
+    line-height: 94px;
+}
+
+
+/* =========================================
+   KONTAKTA OSS
+========================================= */
+
+.footer-contact {
+    position: absolute;
+
+    left: 418px;
+    top: 49px;
+
+    width: 428px;
+}
+
+.footer-contact h3 {
+    width: 258px;
+    height: 48px;
+
+    margin: 0;
+
+    color: #F1E5A1;
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+
+    line-height: 48px;
+}
+
+
+/* =========================================
+   CONTACT TEXT
+========================================= */
+
+.contact-text {
+    margin-top: 25px;
+
+    width: 428px;
+    height: 189px;
+}
+
+.contact-text p {
+    margin: 0 0 24px 0;
+
+    color: #FFFFFF;
+
+    font-family: 'Instrument Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+
+    line-height: 47px;
+}
+
+
+/* =========================================
+   INFORMATION
+   TEMPORARY POSITION
+========================================= */
+
+.footer-info {
+    position: absolute;
+
+    left: 1050px;
+    top: 49px;
+
+    width: 300px;
+}
+
+.footer-info h3 {
+    margin: 0 0 25px 0;
+
+    color: #F1E5A1;
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.footer-info a {
+    display: block;
+
+    margin-bottom: 18px;
+
+    color: #FFFFFF;
+
+    font-family: 'Instrument Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+
+    text-decoration: none;
+}
+
+
+/* =========================================
+   SOCIAL MEDIA
+   TEMPORARY POSITION
+========================================= */
+
+.footer-social {
+    position: absolute;
+    left: 22px;
+    bottom: 27px;
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer-social span {
+    color: #F1E5A1;
+    font-family: 'Instrument Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.footer-social a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 22px;
+    height: 22px;
+}
+
+.footer-social img {
+    width: 22px;
+    height: 22px;
+    object-fit: contain;
 }
