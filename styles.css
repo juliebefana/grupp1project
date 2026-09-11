@@ -534,8 +534,9 @@ body {
 
 .footer-social {
     position: absolute;
-    left: 22px;
+    left: 50%;
     bottom: 27px;
+    transform: translateX(-50%);
 
     display: flex;
     align-items: center;
@@ -545,7 +546,7 @@ body {
 .footer-social span {
     color: #F1E5A1;
     font-family: 'Instrument Sans', sans-serif;
-    font-size: 20px;
+    font-size: 28px;
     font-weight: 700;
 }
 
