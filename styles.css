@@ -564,3 +564,80 @@ body {
     height: 22px;
     object-fit: contain;
 }
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #fffdf0;
+    font-family: Arial, sans-serif;
+    color: #8B2626;
+}
+
+.hund-container {
+    display: grid;
+    grid-template-columns: repeat(4, 255px);
+    justify-content: space-between;
+    gap: 80px 40px;
+    padding: 40px 50px;
+}
+
+.hundkort {
+    width: 255px;
+    height: 365px;
+    background-color: white;
+
+    border: 1px solid #8B2626;
+    border-radius: 15px;
+
+    overflow: hidden;
+    position: relative;
+}
+
+.hundkort img {
+    width: 100%;
+    height: 186px;
+    object-fit: cover;
+    display: block;
+}
+
+.hundkort h2 {
+    text-align: center;
+    font-size: 18px;
+    margin: 5px 0 12px 0;
+    color: #8B2626;
+}
+
+.hundkort p {
+    font-size: 14px;
+    margin: 0 8px 18px 8px;
+    color: #8B2626;
+}
+
+.hundkort strong {
+    font-weight: bold;
+}
+
+
+
+svg.heart {
+    width: 26px;
+    height: 26px;
+    position: absolute;
+    right: 10px;
+    bottom: 8px;
+}
+
+svg.heart path {
+    stroke: #8B2626;
+    stroke-width: 1.8;
+}
+
+svg.heart.fylld path {
+    fill: #8B2626;
+}
+
+svg.heart.tom path {
+    fill: none;
+}
