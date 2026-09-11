@@ -530,7 +530,6 @@ body {
 
 /* =========================================
    SOCIAL MEDIA
-   TEMPORARY POSITION
 ========================================= */
 
 .footer-social {
@@ -540,13 +539,13 @@ body {
 
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 50px;
 }
 
 .footer-social span {
     color: #F1E5A1;
     font-family: 'Instrument Sans', sans-serif;
-    font-size: 12px;
+    font-size: 20px;
     font-weight: 700;
 }
 
@@ -560,8 +559,8 @@ body {
 }
 
 .footer-social img {
-    width: 22px;
-    height: 22px;
+    width: 60px;
+    height: 58px;
     object-fit: contain;
 }
 * {
