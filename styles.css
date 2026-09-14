@@ -278,17 +278,17 @@ body {
  /* FAVORITER // FRIDA */
 
 
-/* typsnitt */
+
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
 
-/* transparenta bakgrunden */
+
 .favorites-section {
     background-color: #fffdf0;
     padding: 40px 20px;
-    text-align: center; /* Centrerar rubrik och knapp */
+    text-align: center; 
 }
 
 .favorites-section h2 {
@@ -297,37 +297,37 @@ body {
     margin-bottom: 30px;
 }
 
-/* Flexbox för att lägga korten i en rad */
+
 .card-container {
     display: flex;
     justify-content: center;
     gap: 20px;
-    flex-wrap: wrap; /* Gör att korten radbryts på mindre skärmar */
+    flex-wrap: wrap; 
 }
 
-/*  Boxmodellen för hundkorten */
+
 .card {
     background-color: #ffffff;
-    border: 1px solid #962727; /* Den vinröda ramen */
+    border: 1px solid #962727; 
     border-radius: 12px;
-    width: 251px; /* Exakt samma som bildens bredd */
-    overflow: hidden; /* Rundar av bildens hörn i överkanten */
+    width: 251px; 
+    overflow: hidden; 
 }
 
 .card img {
     display: block;
     width: 100%;
     height: auto;
-    border-bottom: 1px solid #962727; /* Linjen mellan bild och text */
+    border-bottom: 1px solid #962727; 
 }
 
-/*  Nedre delen av kortet (Namn och hjärta) */
+
 .card-info {
     display: flex;
-    justify-content: center; /* Centrerar hundens namn under bilden */
+    justify-content: center; 
     align-items: center;
     padding: 15px 15px 35px 15px;
-    position: relative; /* hjärtat ska kunna placeras fritt */
+    position: relative; 
 }
 
 .dog-name {
@@ -340,24 +340,24 @@ body {
 .heart-icon {
     position: absolute;
     right: 5px;
-    bottom: 2px;   /* Trycker ner hjärtat mot bottenkanten */
-    width: 22px;   /* Sätter storleken på ikonen */
+    bottom: 2px;   
+    width: 22px;   
     height: 22px;
-    fill: #962727; /* På SVG-ikoner använder man "fill" i stället för "color" */
-    stroke: #8B2626;   /* Den vinröda färgen på konturen runt om */
-    stroke-width: 2px; /* Tjockleken på konturen */
+    fill: #962727; 
+    stroke: #8B2626;   
+    stroke-width: 2px; 
     cursor: pointer;
     transition: fill 0.2s ease-in-out;
 }
 
-/* 2. Klickat läge (Släckt / Tomt hjärta) */
+
 .heart-icon.empty {
-    fill: transparent; /* Ändrat: När denna klass läggs till töms färgen */
+    fill: transparent; 
 }
 
-/*  Visa mer - knapp */
+
 .show-more-btn {
-    font-family: 'Instrument Sans', sans-serif; /* Unikt typsnitt för knappen */
+    font-family: 'Instrument Sans', sans-serif; 
     background-color: transparent;
     color: #962727;
     border: 1px solid #962727;
@@ -369,10 +369,10 @@ body {
     cursor: pointer;
 }
 
-/* När musen är ovanför knappen */
+
 .show-more-btn:hover {
-    color: #486C2F;       /* Ändrar textfärgen */
-    border-color: #486C2F; /* Ändrar ramens färg */
+    color: #486C2F;       
+    border-color: #486C2F; 
 }
 
 /* =========================================
