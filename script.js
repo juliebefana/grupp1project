@@ -7,12 +7,12 @@ const hearts = document.querySelectorAll('.heart-icon');
 hearts.forEach(heart => {
     
     
-    heart.addEventListener('click', function(event) {
+heart.addEventListener('click', function(event) {
         
        
-        event.preventDefault(); 
+ event.preventDefault(); 
         
        
-        this.classList.toggle('empty'); 
-    });
+ this.classList.toggle('empty'); 
+});
 });
